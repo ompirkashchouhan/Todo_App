@@ -1,0 +1,143 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.mainSec{
+    width: 50%;
+    height: 370px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.firstHeadingSec{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #011f7b;
+    color: white;
+    position: relative;
+}
+
+.inpSec{
+    width: 80%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80px;
+    box-shadow: 0px 0px 5px black;
+    background-color: white;
+    position: absolute;
+    bottom: -40px;
+}
+
+.inpSec > input{
+    width: 60%;
+    font-size: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 8px;
+}
+
+.inpSec > button{
+    width: 100px;
+    outline: none;
+    border: none;
+    padding: 3px 3px;
+    border-radius: 3px;
+    box-shadow: 0px 5px 8px #ff380b;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #ff380b;
+}
+
+.detailsSec{
+    display: flex;
+    justify-content: center;
+}
+
+.mainDetail{
+    margin-top: 50px;
+    overflow-y: scroll;
+    overflow-block: auto;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 4px grey;
+    width: 80%;
+    height: 200px;
+}
+
+.mainDetail > p{
+    margin-left: 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status{
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #383535d5;
+    background-color: #e3e3e3bb;
+}
+
+/* <<<<<<<<<<< JS Dom CSS Started >>>>>>>>> */
+
+#domDivMain{
+    height: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid grey;
+    color: #383535d5;
+    border-bottom: 1px solid black;
+}
+
+#editBtn{
+    outline: none;
+    background-color: green;
+    border: none;
+    font-size: 8px;
+    border-radius: 2px;
+    color: white;
+    width: 30px;
+    height: 15px;
+    cursor: pointer;
+}
+
+#deleteBtn{
+    outline: none;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 8px;
+    border-radius: 2px;
+    color: white;
+    width: 27px;
+    height: 15px;
+    cursor: pointer;
+}
+
+/* <<<<<<<<<<< JS Dom CSS Ended >>>>>>>>> */
